@@ -7,6 +7,7 @@ Author: Webby Scots
 Author URI: http://webbyscots.com/
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: woo-bookings-dropdown
 */
 
 add_action('wp_ajax_wswp_refresh_dates', 'wswp_refresh_dates');
