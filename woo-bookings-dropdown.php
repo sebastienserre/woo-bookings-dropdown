@@ -141,7 +141,7 @@ function wswp_build_new_options($rules, $field, $max_date) {
                         
                     $js_date = date( 'Y-n-j', $dtime );
 	                if ( $dtime > time() && $dtime <= $max_date - 1 && ! isset( $field['fully_booked_days'][ $js_date ] ) ) {
-		                $date_format     = apply_filters( 'wbd_date_format', 'F jS, Y' );
+		                $date_format     = apply_filters( 'wbd_date_format', 'F jS Y' );
 		                $dates[ $dtime ] = date_i18n( $date_format, $dtime );
 	                }
                 }
